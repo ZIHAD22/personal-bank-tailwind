@@ -7,6 +7,8 @@
     <title>Personal Bank</title>
     <!-- tailwind css  -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- common setting css -->
+    <link rel="stylesheet" href="/css/common.css" />
   </head>
   <body>
     <header>
@@ -21,21 +23,27 @@
             class="block mb-4 border-2 border-gray-100 outline-0 rounded px-2 w-3/4 h-10 mx-auto"
             type="email"
             name=""
-            id=""
+            id="email-fild"
             placeholder="Please Inter Your Email"
           />
           <input
             class="block mb-4 border-2 border-gray-100 outline-0 rounded px-2 w-3/4 h-10 mx-auto"
             type="password"
             name=""
-            id=""
+            id="password-fild"
             placeholder="Please Inter Your Password"
           />
-          <button class="mx-auto block bg-gray-50 px-5 py-2 rounded">
+          <button
+            id="sumbit-btn"
+            class="mx-auto block bg-gray-50 px-5 py-2 rounded"
+          >
             Submit
           </button>
         </div>
       </section>
     </main>
+
+    <!-- js file -->
+    <script src="./JS/index.js"></script>
   </body>
 </html>
